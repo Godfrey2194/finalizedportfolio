@@ -1,6 +1,7 @@
 body {
     overflow: auto;
     height: 100%;
+    background-color: pink;
   }
   
   /* The side navigation menu */
@@ -8,7 +9,7 @@ body {
       margin: 0;
       padding: 0;
       width: 200px;
-      background-color: #0f0f0e;
+      background-color: rgba(153, 15, 49, 0.39);
       position: fixed;
       height: 100%;
       overflow: auto;
@@ -60,4 +61,18 @@ body {
         text-align: center;
         float: none;
       }
+    }
+
+    .project-section {
+      text-align: center;
+      width: 80%;
+      margin-left: 15%;
+    }
+
+    .project-section p {
+      text-align: center;
+      width: 75%;
+      margin-left: 15%;
+      font-size: 20px;
+
     }

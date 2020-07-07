@@ -10,7 +10,7 @@ body {
       margin: 0;
       padding: 0;
       width: 200px;
-      background-color: #0f0f0e;
+      background-color: #0f0e0e;
       position: fixed;
       height: 100%;
       overflow: auto;
@@ -94,15 +94,13 @@ body {
       overflow: hidden;
     }
 
-    .about-pic {
-      margin-left: 50%;
-    }
-
     .about-pic img {
       border-radius: 50%;
       box-shadow: yellow;
       border-width: 8px;
       border-style: double;
       image-orientation: flip;
+      align-self: center;
+      margin-left: 30%;
     }
     
