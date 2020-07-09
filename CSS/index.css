@@ -95,7 +95,15 @@ body {
       border-width: 8px;
       border-style: double;
     }
-
+    .hero-image a {
+      padding: 4px 5px;
+      font-size: 25px;
+      background-color: chartreuse;
+      text-align: center;
+      overflow: auto;
+      
+    }
+    
     body {
-      background-image: linear-gradient(rgba(100, 46, 46, 0.5), rgba(10, 45, 45, 0.5)), url(../IMAGES/summer.jpg)
+      background-image: linear-gradient(rgba(49, 13, 13, 0.5), rgba(12, 71, 71, 0.5)), url(../IMAGES/summer.jpg)
     }
